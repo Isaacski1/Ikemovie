@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie | Website</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./CSS/sign-up.css" />
+    <!-- Responsive Link -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Keyframe Animation -->
+    <link rel="stylesheet" href="./CSS/animation.css" />
+    <!-- Fav-icon -->
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
+    <!-- Box Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body id="top">
+    <!-- Navigation Section Start -->
+    <nav class="header">
+      <a href="index.html"
+        ><img src="images/logo.svg" alt="logo" class="logo"
+      /></a>
+
+      <!-- NavLinks -->
+      <ul class="navmenu">
+        <li><a href="index.html" style="--i: 1">home</a></li>
+        <li><a href="movies.html" style="--i: 2">movies</a></li>
+        <li><a href="tv-shows.html" style="--i: 3">tv show</a></li>
+        <li><a href="series.html">web series</a></li>
+        <li><a href="animates.html" style="--i: 5">cartoons</a></li>
+      </ul>
+      <div class="search">
+        <a class="active" href="sign-up.html"><i class="bx bx-user"></i></a>
+        <span>|</span>
+        <div class="lang">
+          <i class="bx bx-globe" id="world"></i>
+
+          <select>
+            <option>EN</option>
+            <option>FR</option>
+            <option>AU</option>
+            <option>DE</option>
+          </select>
+        </div>
+      </div>
+      <a href="sign-in.html" class="sign-in">Sign in</a>
+      <div class="hambuger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!-- Navigation Section End -->
+
+    <!-- Registration Section Start -->
+    <section class="reg-hero">
+        <div class="main-form">
+            <h2 class="form-head">open an account</h2>
+
+            <div class="form">
+                <form action="">
+                    <div id="form-gap">
+                        <label>full name</label>
+                        <input type="text" name="fullName" required>
+                    </div>
+
+                    <div id="form-gap">
+                        <label>email</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div id="form-gap">
+                        <label>country</label>
+                        <input type="text" name="country" required>
+                    </div>
+
+                    <div id="form-gap">
+                        <label>phone</label>
+                        <input type="text" name="phone" placeholder="+233 (549) (175) (604)" required>
+                    </div>
+
+                    <div id="form-gap">
+                        <label>password</label>
+                        <input type="password" name="password" required>
+                    </div>
+
+                    <div id="form-gap">
+                      <button class="btn" type="submit">Sign In</button>
+                  </div>
+                  
+                    <div class="dont-have-account">
+                        <h3>already having account</h3>
+                        <p>sign in with</p>
+                        <div class="login-icons">
+                            <li><a href="#"><i class='bx bxl-google'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-github'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-tiktok' ></i></a></li>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Registration Section End -->
+
+     <!-- Footer Section Start -->
+      <!-- Footer Section Start -->
+    <section class="footer-bg">
+        <div class="footer-content">
+          <img src="images/logo.svg" alt="logo" class="f-logo" />
+  
+          <ul class="navmenu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">movie</a></li>
+            <li><a href="#">tv show</a></li>
+            <li><a href="#">web series</a></li>
+            <li><a href="#">pricing</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-ask">
+          <ul class="navmenu">
+            <li><a href="#">faq</a></li>
+            <li><a href="#">help center</a></li>
+            <li><a href="#">terms of use</a></li>
+            <li><a href="#">privacy</a></li>
+          </ul>
+          <div class="social-handles">
+            <li><i class="bx bxl-facebook-circle"></i></li>
+            <li><i class="bx bxl-instagram"></i></li>
+            <li><i class="bx bxl-linkedin"></i></li>
+            <li><i class="bx bxl-twitter"></i></li>
+          </div>
+        </div>
+        <section class="copyright">
+          <div class="copyright-box">
+            <p>&copy; 2024 <span>Isaacski Krams.</span> All Right Reserved</p>
+          </div>
+          <div class="sponsor">
+            <img src="images/footer-bottom-img.png" alt="" />
+          </div>
+        </section>
+      </section>
+  
+      <!-- Jump to top -->
+      <a href="#top" class="go-top" data-go-top>
+        <i class="bx bxs-up-arrow"></i>
+      </a>
+      <!-- Footer Section End -->
+  
+      <!-- JavaScript Link -->
+      <script src="./JS/script.js"></script>
+  </body>
+</html>

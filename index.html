@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie | Website</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Responsive Link -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Keyframe Animation -->
+    <link rel="stylesheet" href="./CSS/animation.css" />
+    <!-- Fav-icon -->
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
+    <!-- Box Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body id="top">
+    <!-- Navigation Section Start -->
+    <nav class="header">
+      <a href="index.html"
+        ><img src="images/logo.svg" alt="logo" class="logo"
+      /></a>
+
+      <!-- NavLinks -->
+      <ul class="navmenu">
+        <li><a class="active" href="index.html" style="--i: 1">home</a></li>
+        <li><a href="movies.html" style="--i: 2">movies</a></li>
+        <li><a href="tv-shows.html" style="--i: 3">tv show</a></li>
+        <li><a href="series.html">web series</a></li>
+        <li><a href="animates.html" style="--i: 5">cartoons</a></li>
+      </ul>
+      <div class="search">
+        <a href="sign-up.html"><i class="bx bx-user"></i></a>
+        <span>|</span>
+        <div class="lang">
+          <i class="bx bx-globe" id="world"></i>
+
+          <select>
+            <option>EN</option>
+            <option>FR</option>
+            <option>AU</option>
+            <option>DE</option>
+          </select>
+        </div>
+      </div>
+      <a href="sign-in.html" class="sign-in">Sign in</a>
+      <div class="hambuger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!-- Navigation Section End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero">
+      <div class="hero-info">
+        <h5>Filmlane</h5>
+        <h1>unlimited movie, <br />TVs shows & more.</h1>
+        <div class="hero-content">
+          <h1 class="pg" style="--i: 1">PG18</h1>
+          <h2 class="hd" style="--i: 1">HD</h2>
+          <h3 class="rom" style="--i: 2">Romance, Drama</h3>
+          <div class="date">
+            <i class="bx bx-calendar" style="--i: 3"></i>
+            <span style="--i: 3">2024</span>
+          </div>
+          <div class="time">
+            <i class="bx bx-time" style="--i: 4"></i>
+            <span style="--i: 4">130min</span>
+          </div>
+        </div>
+        <a href="movies.html" class="watch-btn"><i class="bx bx-play"></i> Watch Now</a>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Up Coming Movies Start-->
+    <section class="upcoming-movie">
+      <div class="upcoming-movie-content">
+        <p class="info animate">online streaming</p>
+        <div class="upcoming-movie-head">
+          <div class="upcoming-title animate">upcoming movies</div>
+          <div class="upcoming-list animate">
+            <a href="movies.html">movies</a>
+            <a href="tv-shows.html">TV shows</a>
+            <a href="animates.html">anime</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="upcoming-container">
+        <div class="upcoming-box animate" style="--i: 0">
+          <div class="img">
+            <a href="movie-show.html">
+              <img src="images/upcoming-1.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">the northman</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box animate" style="--i: 1">
+          <div class="img">
+            <a href="doctor-strange.html">
+              <img src="images/upcoming-2.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">
+                doctor strange in the multiverse of madness
+              </div>
+              <div class="year">2023</div>
+              <div class="hd">4K</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>2hr 21min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>20.6</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box animate" style="--i: 2">
+          <div class="img">
+            <a href="memory.html">
+              <img src="images/upcoming-3.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">memory</div>
+              <div class="year">2020</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>15.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box animate" style="--i: 3">
+          <div class="img">
+            <a href="unbearable.html">
+              <img src="images/upcoming-4.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">the unbearable weight of massive talent</div>
+              <div class="year">2024</div>
+              <div class="hd">4K</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Up Coming Movies End-->
+
+    <!-- Services Section Start -->
+    <section class="service">
+      <div class="service-container">
+        <div class="service-box">
+          <div class="service-box-img">
+            <img src="images/service-banner.jpg" alt="" />
+            <div class="download">
+              <div class="text">
+                <h4>download <i class="bx bx-download"></i></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="box-0">
+            <span></span>
+            <p>our services</p>
+          </div>
+
+          <div class="services-content">
+            <h1>download your shows</h1>
+            <h1>watch offline.</h1>
+            <p>
+              TV show download sites have become popular for viewers to access
+              their favorite TV series and watch them conveniently. To ensure a
+              satisfying and convenient user experience, these websites often
+              offer various features that enhance the overall experience. Below,
+              we outline some of the top features that make TV show download
+              websites appealing and essential TV enthusiasts.
+            </p>
+
+            <div class="show-content-1">
+              <div class="show-cont">
+                <i class="bx bxs-tv"></i>
+                <div>
+                  <h1 id="head">enjoy on your TV</h1>
+                  <p>
+                    TV Shows is an authenticated video streaming on-demand
+                    platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="show-content-1">
+              <div class="show-cont">
+                <i class="bx bxs-video"></i>
+                <div>
+                  <h1 id="head">watch everywhere</h1>
+                  <p>
+                    TV Everywhere includes live TV and full episodes of current
+                    TV shows.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Streaming Section Start -->
+    <section class="streaming">
+      <div class="streaming-container">
+        <center>online streaming</center>
+        <h1>top rated movies</h1>
+        <div class="link">
+          <a href="movies.html">movies</a>
+          <a href="tv-shows.html">tv shows</a>
+          <a href="series.html">series</a>
+          <a href="animates.html">cartoons</a>
+        </div>
+      </div>
+
+      <div class="upcoming-container-1">
+        <div class="upcoming-box-1 animate" style="--i: 0">
+          <div class="img">
+            <a href="sonic.html">
+              <img src="images/movie-1.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">sonic the hedgehog 2</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 1">
+          <div class="img">
+            <a href="avengers.html">
+              <img src="images/avengers.jpeg" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">morbius</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 2">
+          <div class="img">
+            <a href="adam-project.html">
+              <img src="images/movie-3.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">the adam project</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 3">
+          <div class="img">
+            <a href="free-guy.html">
+              <img src="images/movie-4.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">free guy</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 3">
+          <div class="img">
+            <a href="the-batman.html">
+              <img src="images/movie-5.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">the batman</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 3">
+          <div class="img">
+            <a href="uncharted.html">
+              <img src="images/movie-6.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">uncharted</div>
+              <div class="year">2023</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 3">
+          <div class="img">
+            <a href="death-of-the-nile.html">
+              <img src="images/movie-7.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">death on the nile</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 3">
+          <div class="img">
+            <a href="the-kings-man.html">
+              <img src="images/movie-8.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">the kings man</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Streaming Section End -->
+    <!-- Series Section Start -->
+    <section class="streaming">
+      <div class="streaming-container">
+        <center>bEST TV SERIES</center>
+        <h1>WORLD BEST TV SERIES</h1>
+      </div>
+
+      <div class="upcoming-container-1">
+        <div class="upcoming-box-1 animate" style="--i: 0">
+          <div class="img">
+            <a href="moonight.html">
+              <img src="images/series-1.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">moon knight</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 1">
+          <div class="img">
+            <a href="halo.html">
+              <img src="images/series-2.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">halo</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 2">
+          <div class="img">
+            <a href="the-vikins.html">
+              <img src="images/series-3.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">vikings valhalla</div>
+              <div class="year">2024</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="upcoming-box-1 animate" style="--i: 3">
+          <div class="img">
+            <a href="money-heist.html">
+              <img src="images/series-4.png" alt="" />
+            </a>
+            <div class="upcoming-box-cont">
+              <div class="title">money heist</div>
+              <div class="year">2017</div>
+              <div class="hd">HD</div>
+              <div class="time">
+                <i class="bx bx-time"></i>
+                <span>1hr 25min</span>
+              </div>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <span>8.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Series Section Ends -->
+    <section class="membership">
+      <div class="container">
+        <div class="cont">
+          <!-- <img src="images/cta-bg.jpg" alt=""> -->
+          <div class="cont-row">
+            <div class="cont-box">
+              <div class="info-1 animate">
+                <h1>trail start first 30 days</h1>
+                <p>enter you email to create or restart your membership</p>
+              </div>
+              <div class="reg animate">
+                <form action="">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                  <button type="submit">get started</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Section Start -->
+
+    <!-- Subscribe Section ENd -->
+
+    <!-- Footer Section Start -->
+    <section class="footer-bg">
+      <div class="footer-content">
+        <img src="images/logo.svg" alt="logo" class="f-logo" />
+
+        <ul class="navmenu">
+          <li><a href="#">home</a></li>
+          <li><a href="#">movie</a></li>
+          <li><a href="#">tv show</a></li>
+          <li><a href="#">web series</a></li>
+          <li><a href="#">pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-ask">
+        <ul class="navmenu">
+          <li><a href="#">faq</a></li>
+          <li><a href="#">help center</a></li>
+          <li><a href="#">terms of use</a></li>
+          <li><a href="#">privacy</a></li>
+        </ul>
+        <div class="social-handles">
+          <li><i class="bx bxl-facebook-circle"></i></li>
+          <li><i class="bx bxl-instagram"></i></li>
+          <li><i class="bx bxl-linkedin"></i></li>
+          <li><i class="bx bxl-twitter"></i></li>
+        </div>
+      </div>
+      <section class="copyright">
+        <div class="copyright-box">
+          <p>&copy; 2024 <span>Isaacski Krams.</span> All Right Reserved</p>
+        </div>
+        <div class="sponsor">
+          <img src="images/footer-bottom-img.png" alt="" />
+        </div>
+      </section>
+    </section>
+
+    <!-- Jump to top -->
+    <a href="#top" class="go-top" data-go-top>
+      <i class="bx bxs-up-arrow"></i>
+    </a>
+    <!-- Footer Section End -->
+
+    <!-- JavaScript Link -->
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

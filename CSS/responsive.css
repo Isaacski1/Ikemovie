@@ -1,0 +1,416 @@
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 0;
+  }
+
+  .hambuger {
+    display: block;
+  }
+
+  .navmenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    background: #111;
+  }
+
+  .navmenu.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .navmenu li {
+    margin-top: 20px;
+    background: #ff0;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navmenu li:hover {
+    background: #000;
+  }
+
+  .navmenu li a {
+    color: #000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .navmenu li a.active {
+    color: #000;
+  }
+
+  .navmenu li a:hover {
+    color: #fff;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .search i {
+    font-size: 2rem;
+  }
+
+  .search span {
+    margin-left: -3px;
+  }
+
+  .lang {
+    margin-left: -7px;
+  }
+
+  .sign-in {
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 20px;
+    margin-left: -13px;
+  }
+
+  /* Hero Section Start */
+  .hero {
+    background-position: 80%;
+  }
+
+  .hero-info {
+    left: 40%;
+    top: 50%;
+  }
+
+  .hero-info h5 {
+    font-size: 4rem;
+  }
+
+  .hero-info h1 {
+    font-size: 5rem;
+    width: 120%;
+  }
+
+  .hero-content {
+    gap: 5px;
+    margin-bottom: 4rem;
+  }
+
+  .watch {
+    padding: 15px 35px;
+  }
+
+  .hero-content .hd {
+    padding: 2px 10px;
+    font-size: 10px;
+  }
+
+  .hero-content .rom {
+    font-size: 13px;
+  }
+
+  .hero-content .date i {
+    font-size: 1.7rem;
+  }
+
+  .hero-content .date span {
+    font-size: 13px;
+  }
+
+  .hero-content .time i {
+    font-size: 1.7rem;
+  }
+
+  .hero-content .time span {
+    font-size: 13px;
+  }
+
+  /* Upcoming Movie Start */
+  .upcoming-movie-content {
+    padding-top: 50px;
+  }
+
+  .upcoming-movie-content .info {
+    font-size: 13px;
+    margin-bottom: -10px;
+  }
+
+  .upcoming-title {
+    font-size: 1.8rem;
+    width: 50%;
+  }
+
+  .upcoming-movie-head {
+    width: 100%;
+  }
+
+  .upcoming-list {
+    text-align: center;
+  }
+
+  .upcoming-list a {
+    padding: 12px 15px;
+    font-size: 12px;
+    margin: 0 4px;
+    line-height: 45px;
+  }
+
+  .upcoming-box.animate {
+    height: 470px;
+    width: auto;
+  }
+
+  .upcoming-box .img {
+    width: auto;
+    height: 360px;
+  }
+
+  .upcoming-box-cont .hd,
+  .upcoming-box-cont .time,
+  .upcoming-box-cont .star {
+    bottom: 5%;
+  }
+
+  .upcoming-box-cont .title {
+    top: 77%;
+  }
+
+  .upcoming-box-cont .year {
+    top: 77%;
+  }
+
+  .upcoming-box-cont .time {
+    right: 23%;
+  }
+
+  /* Upcoming Movie End */
+  /* Service Start */
+
+  .service-box {
+    height: 470px;
+    width: auto;
+    margin-left: 20px;
+  }
+
+  .service-box-img {
+    width: auto;
+    height: 440px;
+  }
+
+  .download {
+    display: none;
+  }
+
+  .cont-box {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .services-content h1 {
+    font-size: 3rem;
+  }
+
+  .services-content p {
+    font-size: 10px;
+    width: 90%;
+  }
+
+  .show-cont i {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service-box {
+    margin-top: auto;
+  }
+
+  /* Service End */
+  /* Online Stream */
+  .streaming-container {
+    padding-top: 200px;
+  }
+
+  .streaming-container h1 {
+    font-size: 3rem;
+  }
+
+  .streaming-container .link a {
+    padding: 7px 10px;
+    display: inline-block;
+    margin: 10px 5px;
+  }
+
+  .upcoming-box-1.animate {
+    height: 470px;
+    width: auto;
+  }
+
+  .upcoming-box-1 .img {
+    width: auto;
+    height: 360px;
+  }
+
+  /* Online Stream End */
+  .cont-box {
+    text-align: center;
+  }
+
+  .reg form {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .cont-box .info-1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .cont-box .info-1 p {
+    font-size: 14px;
+  }
+
+  .reg input {
+    width: 60%;
+  }
+
+  .reg button {
+    width: 80px;
+    height: 30px;
+    margin-right: 0;
+    font-size: 13px;
+  }
+
+  .sponsor img {
+    width: 150px;
+  }
+
+  .copyright-box p {
+    font-size: 1.2rem;
+  }
+
+  /* movie-shows Start */
+  .hero-box__img {
+    width: auto;
+    height: auto;
+  }
+
+  .hero-box-content h5 {
+    font-size: 2rem;
+  }
+
+  .hero-box-content h1 {
+    font-size: 4rem;
+  }
+
+  .hero-box-content {
+    margin-top: -2rem;
+  }
+
+  .movie-status-parag {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .movie-status .pg {
+    padding: 2px 10px;
+  }
+
+  .movie-status .hd {
+    padding: 2px 8px;
+  }
+
+  .movie-status p {
+    font-size: 10px;
+  }
+
+  .hero-box__trail p {
+    font-size: 13px;
+  }
+
+  .hero-box-download {
+    display: none;
+  }
+
+  .hero-box-watch_now {
+    width: auto;
+    align-items: baseline;
+    margin-top: 6%;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .share i {
+    font-size: 2.5rem;
+  }
+
+  .share h1 {
+    font-size: 1.3rem;
+  }
+
+  .stream h2 {
+    font-size: 1.3rem;
+  }
+
+  .stream p {
+    font-size: 12px;
+  }
+
+  .watch {
+    padding: 3px 15px;
+    font-size: 10px;
+  }
+
+  .watch-now {
+    padding: 3px;
+  }
+
+  .recomended {
+    height: auto;
+  }
+
+  /* movie-shows End */
+
+  /* Movie Section Start */
+  .hero-bg__explore h1 {
+    font-size: 4.7rem;
+    width: 100%;
+  }
+
+  .upcoming-movie-content .info {
+    font-size: 2.5rem;
+  }
+
+  .upcoming-title {
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    margin: auto;
+  }
+
+  /* Movie Section End */
+
+  /* Registration Section Start */
+  .main-form {
+    max-width: auto;
+    max-height: auto;
+    top: 60%;
+  }
+
+  #form-gap label {
+    margin-left: 10px;
+  }
+
+  .reg-hero {
+    height: 100vh;
+    margin-bottom: 5rem;
+  }
+
+  /* Registration Section End */
+}
